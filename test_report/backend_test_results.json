@@ -1,0 +1,135 @@
+{
+  "summary": {
+    "total_tests": 21,
+    "passed_tests": 21,
+    "success_rate": 100.0
+  },
+  "detailed_results": [
+    {
+      "test": "API Health Check",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:05.532402"
+    },
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:05.846108"
+    },
+    {
+      "test": "Get User Profile",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:05.881707"
+    },
+    {
+      "test": "Get All Products",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:05.917569"
+    },
+    {
+      "test": "Get Categories",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:05.954919"
+    },
+    {
+      "test": "Search Products",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:05.987423"
+    },
+    {
+      "test": "Filter Products by Category",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.040779"
+    },
+    {
+      "test": "Get Products for Single Product Test",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.078134"
+    },
+    {
+      "test": "Get Single Product",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.151541"
+    },
+    {
+      "test": "Get Products for Cart Test",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.185427"
+    },
+    {
+      "test": "Get Empty Cart",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.221859"
+    },
+    {
+      "test": "Add to Cart",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.325721"
+    },
+    {
+      "test": "Get Cart with Items",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.361773"
+    },
+    {
+      "test": "Update Cart Quantity",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.394684"
+    },
+    {
+      "test": "Remove from Cart",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.430067"
+    },
+    {
+      "test": "Get Products for Order Test",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.466113"
+    },
+    {
+      "test": "Add to Cart for Order",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.505100"
+    },
+    {
+      "test": "Create Order",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.553478"
+    },
+    {
+      "test": "Get All Orders",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.594978"
+    },
+    {
+      "test": "Get Single Order",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.630322"
+    },
+    {
+      "test": "Contact Form Submission",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2025-10-19T18:21:06.673066"
+    }
+  ]
+}
