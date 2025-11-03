@@ -58,11 +58,12 @@
     "zod": "^3.24.4"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject"
-  },
+  "start": "craco start",
+  "build": "craco build",
+  "deploy": "set BUILD_PATH=../docs && yarn build",
+  "test": "craco test",
+  "eject": "react-scripts eject"
+},
   "browserslist": {
     "production": [
       ">0.2%",
