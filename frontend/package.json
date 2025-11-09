@@ -1,5 +1,5 @@
 {
-"homepage": "https://hpharshparmar2004-debug.github.io/my_app",
+  "homepage": "https://hpharshparmar2004-debug.github.io/my-app",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -50,7 +50,7 @@
     "react-hook-form": "^7.56.2",
     "react-resizable-panels": "^3.0.1",
     "react-router-dom": "^7.5.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "sonner": "^2.0.3",
     "tailwind-merge": "^3.2.0",
     "tailwindcss-animate": "^1.0.7",
@@ -58,12 +58,13 @@
     "zod": "^3.24.4"
   },
   "scripts": {
-  "start": "craco start",
-  "build": "craco build",
-  "deploy": "set BUILD_PATH=../docs && yarn build",
-  "test": "craco test",
-  "eject": "react-scripts eject"
-},
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
