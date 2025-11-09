@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
-  const whatsappNumber = '+919876543210';
-  const phoneNumber = '+919876543210';
+  const whatsappNumber = '+919193835311';
+  const phoneNumber = '+919193835311';
 
   return (
     <footer className="bg-gradient-to-br from-gray-900 to-gray-800 text-white mt-20">
@@ -54,11 +54,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2 text-gray-400 text-sm">
                 <Mail className="w-4 h-4" />
-                <span>info@ashamedical.com</span>
+                <span>ashamedicalstore@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2 text-gray-400 text-sm">
                 <MapPin className="w-4 h-4" />
-                <span>Mumbai, Maharashtra, India</span>
+                <span>Agra, Uttarpradesh, India</span>
               </li>
             </ul>
           </div>
